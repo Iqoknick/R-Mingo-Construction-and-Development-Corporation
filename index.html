@@ -708,7 +708,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Company Info -->
                 <div>
-                    <div class="flex items-center space-x-3 mb-4">
+                    <div class="flex items-center space-x-3 mb-4 cursor-pointer hover:opacity-80 transition-opacity duration-300" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
                         <img src="https://raw.githubusercontent.com/Iqoknick/R-Mingo-Construction-and-Development-Corporation/main/R-mingo_logo-removebg-preview.png" alt="R Mingo Construction" class="h-12 w-auto">
                         <div>
                             <div class="text-lg font-bold text-white">R-Mingo Construction</div>
@@ -719,13 +719,13 @@
                     
                     <!-- Business Hours Inline -->
                     <div class="mt-2 text-blue-200 text-xs space-y-1">
-                        <h3 class="text-lg font-bold text-white mb-2">Business Hours</h3>
+                        <h3 class="text-lg font-bold text-blue-200 mb-2">Business Hours</h3>
                         <p class="flex items-center">
-                            <i class="fas fa-clock mr-2 text-red-500"></i>
+                            <i class="fas fa-clock mr-2 text-white-500"></i>
                             <span>Mon-Sat: 9:00 AM - 5:00 PM</span>
                         </p>
                         <p class="flex items-center">
-                            <i class="fas fa-times-circle mr-2 text-red-500"></i>
+                            <i class="fas fa-times-circle mr-2 text-white-500"></i>
                             <span>Sunday: Closed</span>
                         </p>
                     </div>
@@ -733,33 +733,33 @@
                         <!-- Contact Info -->
                         <div class="space-y-2 text-blue-200 text-sm">
                             <p class="flex items-center">
-                                <i class="fas fa-phone mr-2 text-red-500"></i> 
-                                <span>(555) 123-4567</span>
+                                <i class="fas fa-phone mr-2 text-white-500"></i> 
+                                <span>+63 917 511 9483</span>
                             </p>
                             <p class="flex items-center">
-                                <i class="fas fa-envelope mr-2 text-red-500"></i> 
+                                <i class="fas fa-envelope mr-2 text-white-500"></i> 
                                 <span>info@rmingo-construction.com</span>
                             </p>
                             <p class="flex items-center">
-                                <i class="fas fa-map-marker-alt mr-2 text-red-500 mt-1"></i>
-                                <span>123 Construction Ave, New York, NY 10001</span>
+                                <i class="fas fa-map-marker-alt mr-2 text-white-500 mt-1"></i>
+                                <span>Neptune St., Grand Parklane, Antel Grand Village, General Trias, Philippines</span>
                             </p>
                         </div>
                 
                 <!-- Social Media -->
                 <div>
                     <div class="flex space-x-3 mb-6">
-                        <a href="https://www.facebook.com/RMingoConstruction" target="_blank" class="bg-red-600 hover:bg-red-700 w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
-                            <i class="fab fa-facebook-f text-white"></i>
+                        <a href="https://www.facebook.com/RMingoConstruction" target="_blank" class="w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
+                            <i class="fab fa-facebook-f text-white-600 text-xl"></i>
                         </a>
-                        <a href="#" class="bg-red-600 hover:bg-red-700 w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
-                            <i class="fab fa-twitter text-white"></i>
+                        <a href="#" class="w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
+                            <i class="fab fa-twitter text-white-600 text-xl"></i>
                         </a>
-                        <a href="#" class="bg-red-600 hover:bg-red-700 w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
-                            <i class="fab fa-linkedin-in text-white"></i>
+                        <a href="#" class="w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
+                            <i class="fab fa-linkedin-in text-white-600 text-xl"></i>
                         </a>
-                        <a href="#" class="bg-red-600 hover:bg-red-700 w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
-                            <i class="fab fa-instagram text-white"></i>
+                        <a href="#" class="w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
+                            <i class="fab fa-instagram text-white-600 text-xl"></i>
                         </a>
                     </div>
                     
@@ -807,14 +807,14 @@
                             </div>
                             <div class="form-group">
                                 <label for="phone">Phone Number</label>
-                                <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567">
+                                <input type="tel" id="phone" name="phone" placeholder="+63 947 123 4567">
                             </div>
                         </div>
                     </div>
 
                     <!-- Project Information -->
                     <div class="mb-6">
-                        <h3 class="text-lg font-semibold text-gray-800 mb-4 flex items-center">
+                        <h3 class="text-lg font-semibold text-gray-700 mb-4 flex items-center">
                             <i class="fas fa-building mr-2 text-red-900"></i>
                             Project Information
                         </h3>
@@ -867,7 +867,7 @@
                     <!-- Consultation Scheduling -->
                     <div class="mb-6">
                         <h3 class="text-lg font-semibold text-gray-800 mb-4 flex items-center">
-                            <i class="fas fa-calendar-alt mr-2 text-red-900"></i>
+                            <i class="fas fa-calendar-alt mr-2 text-red-700"></i>
                             Consultation Scheduling
                         </h3>
                         <div class="form-group">
@@ -902,7 +902,7 @@
                         <button type="button" onclick="closeContactForm()" class="px-6 py-3 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors duration-300">
                             Cancel
                         </button>
-                        <button type="submit" class="px-6 py-3 bg-red-600 text-white rounded-lg hover:bg-blue-800 transition-colors duration-300">
+                        <button type="submit" class="px-6 py-3 bg-red-700 text-white rounded-lg hover:bg-red-600 transition-colors duration-300">
                             Submit Quote Request
                         </button>
                     </div>
